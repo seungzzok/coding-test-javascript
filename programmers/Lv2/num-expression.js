@@ -17,7 +17,7 @@ function solution(n) {
 solution(15);
 
 // 모범답안
-function expressions(num) {
+function best(num) {
   var answer = 0;
   for (var i = 1; i <= num; i++) {
     if (num % i == 0 && i % 2 == 1) {
